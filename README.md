@@ -12,6 +12,7 @@ Once pathogen is setup, simply run these commands:
 
     git clone git://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
     git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
+    # git clone git://github.com/kevinw/pyflakes-vim.git # Easier setup than syntastic
     git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized.git
     git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
     git clone git://github.com/mhinz/vim-signify ~/.vim/bundle/vim-signify
