@@ -83,9 +83,6 @@ au Syntax * syn match EvilSpace /[ \t]\+$/ " trailing space
 
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 
-" Don't throw away indent when entering python comments
-inoremap # X^H#
-
 " make Python syntax highlighting highlight more things
 let python_highlight_numbers = 1
 let python_highlight_builtins = 1
