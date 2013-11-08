@@ -8,8 +8,6 @@ else
   let g:loaded_epage = 1
 endif
 
-set autochdir
-
 set termencoding=utf-8
 set fileencodings=ucs-bom,ascii,utf-8,latin1
 
