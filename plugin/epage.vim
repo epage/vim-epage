@@ -53,6 +53,8 @@ set incsearch "Incremental search
 
 nnoremap <Space> :
 
+nnoremap <F5> :GundoToggle<CR>
+
 " Switch between header and source file
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 
