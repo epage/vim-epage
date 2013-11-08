@@ -53,10 +53,12 @@ set incsearch "Incremental search
 
 nnoremap <Space> :
 
-nnoremap <F5> :GundoToggle<CR>
-
+" Toggle tag list
+map <F3> :TlistToggle<CR>
 " Switch between header and source file
 map <F4> :A<CR>
+" Display undo tree
+nnoremap <F5> :GundoToggle<CR>
 
 " Home key alternates between begin of line and begin of text
 function! SmartHome()
