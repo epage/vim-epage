@@ -22,6 +22,7 @@ git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
 git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized.git
 git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 git clone git://github.com/mhinz/vim-signify.git ~/.vim/bundle/vim-signify
+# git clone git://github.com/epage/vim-signify.git ~/.vim/bundle/vim-signify # Has fixes for perforce
 git clone git://github.com/epage/vim-nati.git ~/.vim/bundle/vim-nati # Optional
 git clone git://github.com/epage/vim-epage.git ~/.vim/bundle/vim-epage
 ```
