@@ -11,6 +11,14 @@ endif
 set termencoding=utf-8
 set fileencodings=ucs-bom,ascii,utf-8,latin1
 
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
+    \| exe "normal g'\"" | endif
+endif
+
+set hidden "Buffers don't have to be saved and remember undo stuff
+
+
 """""""""""""""""""""""""""""""""""""""""""""""
 " Appearance
 """""""""""""""""""""""""""""""""""""""""""""""
