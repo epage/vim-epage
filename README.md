@@ -11,6 +11,7 @@ makes life easy. I was a doubter but now believe in it.
 Once pathogen is setup, simply run these commands:
 
     git clone git://github.com/sjl/gundo.vim.git ~/.vim/bundle/gundo
+    git clone git://github.com/henrik/vim-indexed-search.git ~/.vim/bundle/vim-indexed-search
     git clone git://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
     git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
     # git clone git://github.com/kevinw/pyflakes-vim.git # Easier setup than syntastic
