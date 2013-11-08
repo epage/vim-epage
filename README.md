@@ -12,7 +12,7 @@ Once pathogen is setup, simply run these commands:
 
     git clone git://github.com/sjl/gundo.vim.git ~/.vim/bundle/gundo
     git clone git://github.com/vim-scripts/a.vim.git ~/.vim/bundle/a.vim
-    git clone https://github.com/vim-scripts/taglist.vim.git ~/.vim/bundle/taglist.vim
+    git clone git://github.com/vim-scripts/taglist.vim.git ~/.vim/bundle/taglist.vim
     git clone git://github.com/henrik/vim-indexed-search.git ~/.vim/bundle/vim-indexed-search
     git clone git://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
     git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
