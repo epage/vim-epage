@@ -56,7 +56,7 @@ nnoremap <Space> :
 nnoremap <F5> :GundoToggle<CR>
 
 " Switch between header and source file
-map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
+map <F4> :A<CR>
 
 " Home key alternates between begin of line and begin of text
 function! SmartHome()
