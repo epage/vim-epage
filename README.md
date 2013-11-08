@@ -20,7 +20,7 @@ Once pathogen is setup, simply run these commands:
 > # git clone git://github.com/kevinw/pyflakes-vim.git # Easier setup than syntastic
 > git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized.git
 > git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
-> git clone git://github.com/mhinz/vim-signify ~/.vim/bundle/vim-signify
+> git clone git://github.com/mhinz/vim-signify.git ~/.vim/bundle/vim-signify
 > git clone git://github.com/epage/vim-nati.git ~/.vim/bundle/vim-nati # Optional
 > git clone git://github.com/epage/vim-epage.git ~/.vim/bundle/vim-epage
 
