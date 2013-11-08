@@ -79,6 +79,11 @@ syntax on
 filetype plugin on
 filetype indent on
 
+if v:version >= 730
+   set undofile                  " persistent undo rocks
+   set undodir=$HOME/.vim/undo
+endif
+
 highlight EvilSpace ctermbg=darkred guibg=darkred
 au Syntax * syn match EvilSpace /\(^\t*\)\@<!\t\+/ " tabs not preceeded by tabs
 au Syntax * syn match EvilSpace /[ \t]\+$/ " trailing space
