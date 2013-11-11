@@ -17,9 +17,9 @@ git clone git://github.com/vim-scripts/taglist.vim.git ~/.vim/bundle/taglist.vim
 # git clone git://github.com/epage/taglist.vim.git ~/.vim/bundle/taglist.vim # Has some improvements for windows
 git clone git://github.com/henrik/vim-indexed-search.git ~/.vim/bundle/vim-indexed-search
 git clone git://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
-git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
-# git clone git://github.com/kevinw/pyflakes-vim.git # Easier setup than syntastic
-git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized.git
+git clone git://github.com/kevinw/pyflakes-vim.git # Easier setup than syntastic
+# git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
+git clone git://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/vim-colorschemes
 git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 git clone git://github.com/mhinz/vim-signify.git ~/.vim/bundle/vim-signify
 git clone git://github.com/epage/vim-nati.git ~/.vim/bundle/vim-nati # Optional
