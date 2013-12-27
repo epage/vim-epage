@@ -65,3 +65,5 @@ endif
 
 execute pathogen#infect()
 ```
+
+For Windows users: [vim-launcher](https://github.com/ThiefMaster/vim-launcher)
