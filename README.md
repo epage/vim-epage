@@ -11,13 +11,15 @@ makes life easy. I was a doubter but now believe in it.
 Once pathogen is setup, simply run these commands:
 
 ```
+git clone git://github.com/tpope/vim-vinegar.git ~/.vim/bundle/vim-vinegar
 git clone git://github.com/sjl/gundo.vim.git ~/.vim/bundle/gundo
 git clone git://github.com/vim-scripts/a.vim.git ~/.vim/bundle/a.vim
-git clone git://github.com/vim-scripts/taglist.vim.git ~/.vim/bundle/taglist.vim
-# git clone git://github.com/epage/taglist.vim.git ~/.vim/bundle/taglist.vim # Has some improvements for windows
+git clone git://github.com/epage/taglist.vim.git ~/.vim/bundle/taglist.vim # Has some improvements for windows
+# git clone git://github.com/vim-scripts/taglist.vim.git ~/.vim/bundle/taglist.vim
 git clone git://github.com/henrik/vim-indexed-search.git ~/.vim/bundle/vim-indexed-search
 git clone git://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
-git clone git://github.com/kevinw/pyflakes-vim.git # Easier setup than syntastic
+git clone git://github.com/kevinw/pyflakes-vim.git  ~/.vim/bundle/pyflakes-vim # Easier setup than syntastic
+git clone git://github.com/fisadev/vim-isort.git ~/.vim/bundle/vim-isort
 # git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
 git clone git://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/vim-colorschemes
 git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
@@ -63,3 +65,5 @@ endif
 
 execute pathogen#infect()
 ```
+
+For Windows users: [vim-launcher](https://github.com/ThiefMaster/vim-launcher)
