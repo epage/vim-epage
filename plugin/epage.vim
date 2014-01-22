@@ -18,6 +18,7 @@ endif
 
 set hidden "Buffers don't have to be saved and remember undo stuff
 
+set lazyredraw  "Stop VIM from being redraw happy
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " Appearance
@@ -54,6 +55,9 @@ set hls
 set showmatch "Show matching brackets.
 set smartcase "Do smart case matching
 set incsearch "Incremental search
+
+"Highlight last inserted text
+nmap gV `[v`]
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " Navigation
