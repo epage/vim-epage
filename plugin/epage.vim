@@ -56,9 +56,6 @@ set showmatch "Show matching brackets.
 set smartcase "Do smart case matching
 set incsearch "Incremental search
 
-"Highlight last inserted text
-nmap gV `[v`]
-
 """""""""""""""""""""""""""""""""""""""""""""""
 " Navigation
 """""""""""""""""""""""""""""""""""""""""""""""
