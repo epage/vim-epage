@@ -18,14 +18,16 @@ endif
 
 set hidden "Buffers don't have to be saved and remember undo stuff
 
-set lazyredraw  "Stop VIM from being redraw happy
-
 """""""""""""""""""""""""""""""""""""""""""""""
 " Appearance
 """""""""""""""""""""""""""""""""""""""""""""""
+set lazyredraw  "Stop VIM from being redraw happy
+
 set nowrap
 set lbr " wraps at words instead of at characters
+
 set list
+
 set noerrorbells
 set novisualbell
 
@@ -93,10 +95,12 @@ if v:version >= 730
    set undodir=$HOME/.vim/undo
 endif
 
+" Emphasize inconsistent indentation
 highlight EvilSpace ctermbg=darkred guibg=darkred
 au Syntax * syn match EvilSpace /\(^\t*\)\@<!\t\+/ " tabs not preceeded by tabs
 au Syntax * syn match EvilSpace /[ \t]\+$/ " trailing space
 
+"Strip trailing whitespace
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 
 " make Python syntax highlighting highlight more things
