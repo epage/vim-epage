@@ -1,4 +1,4 @@
-" epage.vim - Defaults for myself that build in vim-sensible
+" epage.vim - Defaults for myself that build on vim-sensible
 " Maintainer:   Ed Page
 " Version:      1.0
 
