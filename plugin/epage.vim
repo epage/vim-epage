@@ -34,7 +34,7 @@ set novisualbell
 set diffopt+=iwhite,icase
 
 if has("gui_running")
-  color freya
+  color hybrid
 
   set spell
   set number

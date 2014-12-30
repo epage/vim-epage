@@ -22,7 +22,8 @@ git clone git://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 git clone git://github.com/kevinw/pyflakes-vim.git  ~/.vim/bundle/pyflakes-vim # Easier setup than syntastic
 git clone git://github.com/fisadev/vim-isort.git ~/.vim/bundle/vim-isort
 # git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
-git clone git://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/vim-colorschemes
+# git clone git://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/vim-colorschemes # Too many files, slows down VIM startup
+git clone git://github.com/w0ng/vim-hybrid.git ~/.vim/bundle/vim-hybrid
 git clone git://github.com/nathanaelkane/vim-indent-guides.git ~/.vim/bundle/vim-indent-guides
 git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 git clone git://github.com/mhinz/vim-signify.git ~/.vim/bundle/vim-signify
