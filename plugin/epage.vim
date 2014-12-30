@@ -41,6 +41,14 @@ if has("gui_running")
   set cursorline
   set guioptions-=m "remove menu bar
   set guioptions-=T "remove toolbar
+
+  " run maximized
+  if has("unix")
+     "this command doesn't work on unix for some reason
+  else
+     au GUIEnter * simalt ~x
+  endif
+
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""
