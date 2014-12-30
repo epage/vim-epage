@@ -13,6 +13,7 @@ Once pathogen is setup, simply run these commands:
 ```
 git clone git://github.com/tpope/vim-vinegar.git ~/.vim/bundle/vim-vinegar
 git clone git://github.com/sjl/gundo.vim.git ~/.vim/bundle/gundo
+git clone https://github.com/bling/vim-bufferline ~/.vim/bundle/vim-bufferline
 git clone git://github.com/vim-scripts/a.vim.git ~/.vim/bundle/a.vim
 git clone git://github.com/epage/taglist.vim.git ~/.vim/bundle/taglist.vim # Has some improvements for windows
 # git clone git://github.com/vim-scripts/taglist.vim.git ~/.vim/bundle/taglist.vim
@@ -22,6 +23,7 @@ git clone git://github.com/kevinw/pyflakes-vim.git  ~/.vim/bundle/pyflakes-vim #
 git clone git://github.com/fisadev/vim-isort.git ~/.vim/bundle/vim-isort
 # git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
 git clone git://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/vim-colorschemes
+git clone git://github.com/nathanaelkane/vim-indent-guides.git ~/.vim/bundle/vim-indent-guides
 git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 git clone git://github.com/mhinz/vim-signify.git ~/.vim/bundle/vim-signify
 git clone git://github.com/epage/vim-nati.git ~/.vim/bundle/vim-nati # Optional
