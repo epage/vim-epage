@@ -6,29 +6,49 @@ VIM defaults for myself
 ## Installation
 
 Recommendation: Use [pathogen.vim](https://github.com/tpope/vim-pathogen). It
-makes life easy. I was a doubter but now believe in it.
+makes life easy. I was a doubter but now I believe.
 
 Once pathogen is setup, simply run these commands:
 
 ```
-git clone git://github.com/tpope/vim-vinegar.git ~/.vim/bundle/vim-vinegar
-git clone git://github.com/sjl/gundo.vim.git ~/.vim/bundle/gundo
-git clone https://github.com/bling/vim-bufferline ~/.vim/bundle/vim-bufferline
-git clone git://github.com/vim-scripts/a.vim.git ~/.vim/bundle/a.vim
-git clone git://github.com/epage/taglist.vim.git ~/.vim/bundle/taglist.vim # Has some improvements for windows
-# git clone git://github.com/vim-scripts/taglist.vim.git ~/.vim/bundle/taglist.vim
-git clone git://github.com/henrik/vim-indexed-search.git ~/.vim/bundle/vim-indexed-search
-git clone git://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
-git clone git://github.com/kevinw/pyflakes-vim.git  ~/.vim/bundle/pyflakes-vim # Easier setup than syntastic
-git clone git://github.com/fisadev/vim-isort.git ~/.vim/bundle/vim-isort
-# git clone git://github.com/scrooloose/syntastic.git  ~/.vim/bundle/syntastic
-# git clone git://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/vim-colorschemes # Too many files, slows down VIM startup
-git clone git://github.com/w0ng/vim-hybrid.git ~/.vim/bundle/vim-hybrid
-git clone git://github.com/nathanaelkane/vim-indent-guides.git ~/.vim/bundle/vim-indent-guides
-git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
-git clone git://github.com/mhinz/vim-signify.git ~/.vim/bundle/vim-signify
-git clone git://github.com/epage/vim-nati.git ~/.vim/bundle/vim-nati # Optional
-git clone git://github.com/epage/vim-epage.git ~/.vim/bundle/vim-epage
+mkdir -p ~/.vim/bundle
+cd ~/.vim/bundle
+
+## Configuration
+# Basic defaults
+git clone git://github.com/tpope/vim-sensible.git
+# Environment-specific settings
+git clone git://github.com/epage/vim-nati.git
+# Personal settings
+git clone git://github.com/epage/vim-epage.git
+
+## Cosmetic
+# My current color scheme (Using github.com/flazz/vim-colorschemes.git may significantly slows down vim startup)
+git clone git://github.com/w0ng/vim-hybrid.git
+# When searching, reports "At match #N out of M matches" in status line
+git clone git://github.com/henrik/vim-indexed-search.git
+# Shows open buffers in command bar
+git clone https://github.com/bling/vim-bufferline
+# Static analysis for Python (easier setup than github.com/scrooloose/syntastic.git)
+git clone git://github.com/kevinw/pyflakes-vim.git
+# Show indent levels
+git clone git://github.com/nathanaelkane/vim-indent-guides.git
+
+## Features
+# File browser enhancements
+git clone git://github.com/tpope/vim-vinegar.git
+# Visual interfaec to VIMs undo tree
+git clone git://github.com/sjl/gundo.vim.git
+# Alternate between header and source
+git clone git://github.com/vim-scripts/a.vim.git
+# Sidebar to display tags in open buffers (Windows improvements over github.com/vim-scripts/taglist.vim.git)
+git clone git://github.com/epage/taglist.vim.git
+# Fuzzy file open like in Sublime (Ctrl-p)
+git clone git://github.com/kien/ctrlp.vim.git
+# Isort command to stort python imports (Ctrl-i in visual mode)
+git clone git://github.com/fisadev/vim-isort.git
+# Marks lines in the gutter that are different than HEAD
+git clone git://github.com/mhinz/vim-signify.git
 ```
 
 What remains in my .vimrc
@@ -58,7 +78,6 @@ if has('win32') || has ('win64')
 else
     let $VIMHOME = $HOME."/.vim"
 endif
-
 :au BufNewFile *.cpp r $VIMHOME/templates/template.cpp
 :au BufNewFile *.ipp r $VIMHOME/templates/template.ipp
 :au BufNewFile *.h r $VIMHOME/templates/template.h
