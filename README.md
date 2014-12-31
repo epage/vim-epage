@@ -25,6 +25,8 @@ git clone git://github.com/epage/vim-epage.git
 ## Cosmetic
 # My current color scheme (Using github.com/flazz/vim-colorschemes.git may significantly slows down vim startup)
 git clone git://github.com/w0ng/vim-hybrid.git
+# Marks lines in the gutter that are different than HEAD
+git clone git://github.com/mhinz/vim-signify.git
 # When searching, reports "At match #N out of M matches" in status line
 git clone git://github.com/henrik/vim-indexed-search.git
 # Shows open buffers in command bar
@@ -35,20 +37,18 @@ git clone git://github.com/kevinw/pyflakes-vim.git
 git clone git://github.com/nathanaelkane/vim-indent-guides.git
 
 ## Features
-# File browser enhancements
-git clone git://github.com/tpope/vim-vinegar.git
+# Fuzzy file open like in Sublime (Ctrl-p)
+git clone git://github.com/kien/ctrlp.vim.git
 # Visual interfaec to VIMs undo tree
 git clone git://github.com/sjl/gundo.vim.git
+# File browser enhancements
+git clone git://github.com/tpope/vim-vinegar.git
 # Alternate between header and source
 git clone git://github.com/vim-scripts/a.vim.git
 # Sidebar to display tags in open buffers (Windows improvements over github.com/vim-scripts/taglist.vim.git)
 git clone git://github.com/epage/taglist.vim.git
-# Fuzzy file open like in Sublime (Ctrl-p)
-git clone git://github.com/kien/ctrlp.vim.git
 # Isort command to stort python imports (Ctrl-i in visual mode)
 git clone git://github.com/fisadev/vim-isort.git
-# Marks lines in the gutter that are different than HEAD
-git clone git://github.com/mhinz/vim-signify.git
 ```
 
 What remains in my .vimrc
