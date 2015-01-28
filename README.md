@@ -30,7 +30,7 @@ git clone git://github.com/mhinz/vim-signify.git
 # When searching, reports "At match #N out of M matches" in status line
 git clone git://github.com/henrik/vim-indexed-search.git
 # Shows open buffers in command bar
-git clone https://github.com/bling/vim-bufferline
+git clone git://github.com/bling/vim-bufferline
 # Static analysis for Python (easier setup than github.com/scrooloose/syntastic.git)
 git clone git://github.com/kevinw/pyflakes-vim.git
 # Show indent levels
@@ -47,8 +47,8 @@ git clone git://github.com/tpope/vim-vinegar.git
 git clone git://github.com/vim-scripts/a.vim.git
 # Sidebar to display tags in open buffers (Windows improvements over github.com/vim-scripts/taglist.vim.git)
 git clone git://github.com/epage/taglist.vim.git
-# Isort command to stort python imports (Ctrl-i in visual mode)
-git clone git://github.com/fisadev/vim-isort.git
+# Unified approach to movements
+git clone git://github.com/gcmt/wildfire.vim
 ```
 
 What remains in my .vimrc

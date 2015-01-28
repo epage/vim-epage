@@ -98,8 +98,9 @@ syntax on
 filetype plugin on
 filetype indent on
 
+" Persistent undo
 if v:version >= 730
-   set undofile                  " persistent undo rocks
+   set undofile
    set undodir=$HOME/.vim/undo
 endif
 
@@ -116,3 +117,11 @@ let python_highlight_numbers = 1
 let python_highlight_builtins = 1
 " PyEv - Will evaluate the current line
 let python_highlight_exceptions = 1
+
+let g:wildfire_objects = {
+    \ "*" : ["iw", "i'", 'i"', "i)", "i]", "i}"],
+    \ "c,cpp" : ["iw", "i'", 'i"', "i)", "i]", "i}", "a}"],
+    \ "python" : ["iw", "i'", 'i"', "i)", "i]", "ip"],
+    \ "html,xml" : ["iw", "is", "ip", "it", "at"],
+\ }
+
