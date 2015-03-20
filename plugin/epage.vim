@@ -115,7 +115,7 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadChevrons
 
 "Strip trailing whitespace
-autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
+autocmd VimEnter,BufReadPost,BufWritePost,BufEnter * :StripWhitespace
 
 " make Python syntax highlighting highlight more things
 let python_highlight_numbers = 1
