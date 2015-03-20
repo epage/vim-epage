@@ -108,6 +108,8 @@ endif
 highlight EvilSpace ctermbg=darkred guibg=darkred
 au Syntax * syn match EvilSpace /\(^\t*\)\@<!\t\+/ " tabs not preceeded by tabs
 
+autocmd VimEnter * :IndentGuidesEnable
+
 "Strip trailing whitespace
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 
