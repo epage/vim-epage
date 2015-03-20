@@ -110,6 +110,10 @@ au Syntax * syn match EvilSpace /\(^\t*\)\@<!\t\+/ " tabs not preceeded by tabs
 
 autocmd VimEnter * :IndentGuidesEnable
 
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadChevrons
+
 "Strip trailing whitespace
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 
