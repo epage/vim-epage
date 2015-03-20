@@ -118,7 +118,7 @@ let python_highlight_builtins = 1
 let python_highlight_exceptions = 1
 
 let g:wildfire_objects = {
-    \ "*" : ["iw", "i'", 'i"', "i)", "i]", "i}"],
+    \ "*" : ["iw", "i'", 'i"', "i)", "i]", "i}", "ip"],
     \ "c,cpp" : ["iw", "i'", 'i"', "i)", "i]", "i}", "a}"],
     \ "python" : ["iw", "i'", 'i"', "i)", "i]", "ip"],
     \ "html,xml" : ["iw", "is", "ip", "it", "at"],
