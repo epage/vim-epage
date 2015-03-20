@@ -107,7 +107,6 @@ endif
 " Emphasize inconsistent indentation
 highlight EvilSpace ctermbg=darkred guibg=darkred
 au Syntax * syn match EvilSpace /\(^\t*\)\@<!\t\+/ " tabs not preceeded by tabs
-au Syntax * syn match EvilSpace /[ \t]\+$/ " trailing space
 
 "Strip trailing whitespace
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``

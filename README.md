@@ -35,6 +35,8 @@ git clone git://github.com/bling/vim-bufferline
 git clone git://github.com/kevinw/pyflakes-vim.git
 # Show indent levels
 git clone git://github.com/nathanaelkane/vim-indent-guides.git
+# Expose the evil of trailing whitespace
+git clone https://github.com/ntpeters/vim-better-whitespace.git
 
 ## Features
 # Fuzzy file open like in Sublime (Ctrl-p)
