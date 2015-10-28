@@ -42,7 +42,7 @@ git clone https://github.com/kien/rainbow_parentheses.vim.git
 
 ## Features
 # Fuzzy file open like in Sublime (Ctrl-p)
-git clone git://github.com/kien/ctrlp.vim.git
+git clone git://github.com/ctrlpvim/ctrlp.vim.git
 # Visual interfaec to VIMs undo tree
 git clone git://github.com/sjl/gundo.vim.git
 # File browser enhancements
