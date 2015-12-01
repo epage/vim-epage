@@ -52,11 +52,11 @@ if has("gui_running")
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""
-" Status Line 
+" Status Line
 """""""""""""""""""""""""""""""""""""""""""""""
 set showcmd  "Show (partial) command in status line.
 set wildmode=list:longest
-set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,*.d
+set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,*.d,objects
 
 """""""""""""""""""""""""""""""""""""""""""""""
 " Search
