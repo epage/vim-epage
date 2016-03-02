@@ -8,6 +8,12 @@ else
   let g:loaded_epage = 1
 endif
 
+if has('win32') || has ('win64')
+    let $VIMHOME = $HOME."/vimfiles"
+else
+    let $VIMHOME = $HOME."/.vim"
+endif
+
 set termencoding=utf-8
 set fileencodings=ucs-bom,ascii,utf-8,latin1
 
@@ -106,11 +112,11 @@ filetype indent on
 
 " Persistent undo
 if has("persistent_undo")
-   let undodir = expand("$HOME/.vim/undo")
+   let undodir = expand("$VIMHOME/undo")
    if !isdirectory(undodir)
       call mkdir(undodir)
    endif
-   set undodir=$HOME/.vim/undo
+   set undodir=$VIMHOME/undo
    set undofile
 endif
 
