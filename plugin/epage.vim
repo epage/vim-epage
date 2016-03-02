@@ -66,6 +66,12 @@ set showmatch "Show matching brackets.
 set smartcase "Do smart case matching
 set incsearch "Incremental search
 
+" The Platinum Searcher
+if executable('pt.exe')
+  " Use ag over grep
+  set grepprg=pt\ --nogroup\ --nocolor\ --parallel\ --ignore\ objects\ --ignore\ tags
+endif
+
 """""""""""""""""""""""""""""""""""""""""""""""
 " Navigation
 """""""""""""""""""""""""""""""""""""""""""""""
