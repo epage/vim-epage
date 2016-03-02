@@ -44,7 +44,7 @@ git clone https://github.com/kien/rainbow_parentheses.vim.git
 # Fuzzy file open like in Sublime (Ctrl-p)
 git clone git://github.com/ctrlpvim/ctrlp.vim.git
 # Visual interfaec to VIMs undo tree
-git clone git://github.com/sjl/gundo.vim.git
+git clone https://github.com/mbbill/undotree/
 # File browser enhancements
 git clone git://github.com/tpope/vim-vinegar.git
 # Alternate between header and source

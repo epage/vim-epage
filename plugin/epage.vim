@@ -77,7 +77,7 @@ map <F3> :TlistToggle<CR>
 " Switch between header and source file
 map <F4> :A<CR>
 " Display undo tree
-nnoremap <F5> :GundoToggle<CR>
+nnoremap <F5> :UndotreeToggle<CR>
 
 " Home key alternates between begin of line and begin of text
 function! SmartHome()
@@ -99,9 +99,13 @@ filetype plugin on
 filetype indent on
 
 " Persistent undo
-if v:version >= 730
-   set undofile
+if has("persistent_undo")
+   let undodir = expand("$HOME/.vim/undo")
+   if !isdirectory(undodir)
+      call mkdir(undodir)
+   endif
    set undodir=$HOME/.vim/undo
+   set undofile
 endif
 
 " Emphasize inconsistent indentation
