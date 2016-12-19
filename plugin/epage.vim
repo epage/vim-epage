@@ -73,10 +73,12 @@ set showmatch "Show matching brackets.
 set smartcase "Do smart case matching
 set incsearch "Incremental search
 
-" The Platinum Searcher
-if executable('pt.exe')
-  " Use ag over grep
-  set grepprg=pt\ --nogroup\ --nocolor\ --parallel\ --ignore\ objects\ --ignore\ tags
+if executable('rg.bat')
+    set grepprg=rg\ --vimgrep
+    set grepformat=%f:%l:%c:%m
+elseif executable('pt.bat')
+    set grepprg=pt\ --nogroup\ --nocolor
+    set grepformat=%f:%l:%c:%m
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""
