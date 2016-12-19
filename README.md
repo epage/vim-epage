@@ -41,6 +41,8 @@ git clone https://github.com/ntpeters/vim-better-whitespace.git
 git clone https://github.com/kien/rainbow_parentheses.vim.git
 
 ## Features
+# mako support
+git clone https://github.com/sophacles/vim-bundle-mako
 # Fuzzy file open like in Sublime (Ctrl-p)
 git clone git://github.com/ctrlpvim/ctrlp.vim.git
 # Visual interfaec to VIMs undo tree
