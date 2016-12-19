@@ -88,7 +88,7 @@ endif
 nnoremap <Space> :
 
 " Toggle tag list
-map <F3> :TlistToggle<CR>
+map <F3> :TagbarToggle<CR>
 " Switch between header and source file
 map <F4> :A<CR>
 " Display undo tree

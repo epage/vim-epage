@@ -52,7 +52,7 @@ git clone git://github.com/tpope/vim-vinegar.git
 # Alternate between header and source
 git clone git://github.com/vim-scripts/a.vim.git
 # Sidebar to display tags in open buffers (Windows improvements over github.com/vim-scripts/taglist.vim.git)
-git clone git://github.com/epage/taglist.vim.git
+git clone https://github.com/majutsushi/tagbar.git
 # Unified approach to movements
 git clone git://github.com/gcmt/wildfire.vim
 ```
