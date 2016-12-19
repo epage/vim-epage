@@ -115,13 +115,21 @@ filetype indent on
 
 " Persistent undo
 if has("persistent_undo")
-   let undodir = expand("$VIMHOME/undo")
+   let undodir = expand("$VIMHOME/undo/")
    if !isdirectory(undodir)
       call mkdir(undodir)
    endif
    set undodir=$VIMHOME/undo
    set undofile
 endif
+
+let backupdir = expand("$VIMHOME/backup/")
+if !isdirectory(backupdir)
+   call mkdir(backupdir)
+endif
+set backupdir=$VIMHOME/backup/
+set directory=$VIMHOME/backup/
+
 
 " Emphasize inconsistent indentation
 highlight EvilSpace ctermbg=darkred guibg=darkred
