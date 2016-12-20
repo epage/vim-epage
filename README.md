@@ -43,6 +43,8 @@ git clone https://github.com/kien/rainbow_parentheses.vim.git
 ## Features
 # rust support
 git clone --depth=1 https://github.com/rust-lang/rust.vim.git
+# toml support
+git clone https://github.com/cespare/vim-toml.git
 # mako support
 git clone https://github.com/sophacles/vim-bundle-mako
 # Fuzzy file open like in Sublime (Ctrl-p)
