@@ -77,12 +77,6 @@ runtime! debian.vim
 
 set nocompatible
 
-" Files and backups
-"Turn backup off
-set nobackup
-set nowb
-set noswapfile
-
 if has('win32') || has ('win64')
     let $VIMHOME = $HOME."/vimfiles"
 else
