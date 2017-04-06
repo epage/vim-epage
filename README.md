@@ -49,6 +49,8 @@ git clone https://github.com/cespare/vim-toml.git
 git clone https://github.com/sophacles/vim-bundle-mako
 # Fuzzy file open like in Sublime (Ctrl-p)
 git clone git://github.com/ctrlpvim/ctrlp.vim.git
+# pre-vimscript editor-config support
+git clone https://github.com/sgur/vim-editorconfig.git
 # Visual interfaec to VIMs undo tree
 git clone https://github.com/mbbill/undotree/
 # File browser enhancements
