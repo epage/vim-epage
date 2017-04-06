@@ -150,6 +150,8 @@ let python_highlight_builtins = 1
 " PyEv - Will evaluate the current line
 let python_highlight_exceptions = 1
 
+let g:rustfmt_autosave = 1
+
 let g:wildfire_objects = {
     \ "*" : ["iw", "i'", 'i"', "i)", "i]", "i}", "ip"],
     \ "c,cpp" : ["iw", "i'", 'i"', "i)", "i]", "i}", "a}"],
