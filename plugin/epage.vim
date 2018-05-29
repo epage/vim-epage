@@ -151,6 +151,9 @@ let python_highlight_builtins = 1
 " PyEv - Will evaluate the current line
 let python_highlight_exceptions = 1
 
+let g:ale_rust_cargo_use_check = 1
+let g:ale_rust_cargo_check_all_targets = 1
+
 let g:rustfmt_autosave = 1
 
 let g:wildfire_objects = {

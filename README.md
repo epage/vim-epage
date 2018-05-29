@@ -31,8 +31,8 @@ git clone git://github.com/mhinz/vim-signify.git
 git clone git://github.com/henrik/vim-indexed-search.git
 # Shows open buffers in command bar
 git clone git://github.com/bling/vim-bufferline
-# Static analysis for Python (easier setup than github.com/scrooloose/syntastic.git)
-git clone git://github.com/kevinw/pyflakes-vim.git
+# Static analysis
+git clone https://github.com/w0rp/ale.git
 # Show indent levels
 git clone git://github.com/nathanaelkane/vim-indent-guides.git
 # Expose the evil of trailing whitespace
