@@ -95,6 +95,8 @@ map <F4> :A<CR>
 " Display undo tree
 nnoremap <F5> :UndotreeToggle<CR>
 
+let g:gutentags_tagfile = '.tags'
+
 " Home key alternates between begin of line and begin of text
 function! SmartHome()
   let s:col = col(".")
