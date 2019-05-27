@@ -41,7 +41,7 @@ set diffopt+=iwhite,icase
 
 if has("gui_running")
   color hybrid
-  set background=dark
+  "set background=dark
   "color Dark
 
   set spell
@@ -153,6 +153,8 @@ let python_highlight_builtins = 1
 " PyEv - Will evaluate the current line
 let python_highlight_exceptions = 1
 
+let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_enter = 0
 let g:ale_rust_cargo_use_check = 1
 let g:ale_rust_cargo_check_all_targets = 1
 
