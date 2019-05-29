@@ -66,6 +66,9 @@ set showcmd  "Show (partial) command in status line.
 set wildmode=list:longest
 set wildignore=.svn,CVS,.git,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,*.d,objects
 
+" Assume lightline is installed
+set noshowmode
+
 """""""""""""""""""""""""""""""""""""""""""""""
 " Search
 """""""""""""""""""""""""""""""""""""""""""""""
