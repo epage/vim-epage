@@ -41,7 +41,7 @@ set diffopt+=iwhite,icase
 
 if has("gui_running")
   color hybrid
-  "set background=dark
+  set background=dark
   "color Dark
 
   set spell
