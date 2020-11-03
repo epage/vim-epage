@@ -40,9 +40,11 @@ set novisualbell
 set diffopt+=iwhite,icase
 
 if has("gui_running")
-  color hybrid
-  set background=dark
+  "color hybrid
+  "set background=dark
   "color Dark
+  "color solarized
+  color one
 
   set spell
   set number
