@@ -147,7 +147,7 @@ au Syntax * syn match EvilSpace /\(^\t*\)\@<!\t\+/ " tabs not preceeded by tabs
 autocmd VimEnter * :IndentGuidesEnable
 
 "Strip trailing whitespace
-autocmd BufWritePost * :StripWhitespace
+"autocmd BufWritePost * :StripWhitespace
 
 " make Python syntax highlighting highlight more things
 let python_highlight_numbers = 1
