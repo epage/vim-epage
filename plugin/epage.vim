@@ -39,16 +39,16 @@ set novisualbell
 
 set diffopt+=iwhite,icase
 
+color one
+set number
+set cursorline
 if has("gui_running")
   "color hybrid
   "set background=dark
   "color Dark
   "color solarized
-  color one
 
   set spell
-  set number
-  set cursorline
   set guioptions-=m "remove menu bar
   set guioptions-=T "remove toolbar
 
